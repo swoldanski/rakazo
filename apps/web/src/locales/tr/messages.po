@@ -1449,6 +1449,7 @@ msgid "Cancelled"
 msgstr "İptal edildi"
 
 #: src/components/ModelCredits.tsx
+#: src/pages/shell/composer-error.tsx
 msgid "Cancelled trials have no computer hours."
 msgstr "İptal edilen denemelerin bilgisayar saati yoktur."
 
@@ -2238,6 +2239,10 @@ msgstr "Alan oluşturulamadı"
 #: src/components/bot-templates/bot-templates-dialog.tsx
 msgid "Could not create the bot"
 msgstr "Bot oluşturulamadı"
+
+#: src/pages/shell/use-routine-editor.ts
+msgid "Could not create the webhook key"
+msgstr ""
 
 #: src/pages/Onboarding.tsx
 msgid "Could not create your bot"
@@ -4999,6 +5004,10 @@ msgstr "Yalnızca {codeHost} tarafından gönderilen kodu gir."
 msgid "Only me"
 msgstr "Yalnızca ben"
 
+#: src/pages/shell/use-routine-editor.ts
+msgid "Only the bot's creator can set its webhook key."
+msgstr ""
+
 #: src/components/pages/SharePopover.tsx
 msgid "Only you"
 msgstr "Yalnızca siz"
@@ -5747,6 +5756,7 @@ msgid "Rename section"
 msgstr "Bölümü yeniden adlandır"
 
 #: src/components/ModelCredits.tsx
+#: src/pages/shell/composer-error.tsx
 msgid "Renew plan"
 msgstr "Planı yenile"
 
@@ -6604,6 +6614,7 @@ msgid "Start plan"
 msgstr "Planı başlat"
 
 #: src/components/ModelCredits.tsx
+#: src/pages/shell/composer-error.tsx
 msgid "Start plan now"
 msgstr "Planı şimdi başlat"
 
@@ -7033,6 +7044,10 @@ msgstr "Bu modelin bağlam penceresi çok küçük. Başka bir model seçin."
 msgid "This month"
 msgstr "Bu ay"
 
+#: src/pages/shell/composer-error.tsx
+msgid "This month's computer hours are used up."
+msgstr ""
+
 #: src/lib/pages.ts
 msgid "This page couldn't be shown."
 msgstr "Bu sayfa gösterilemedi."
@@ -7355,6 +7370,7 @@ msgstr "Takım Bilgisayarı güncelleniyor"
 msgid "Updating…"
 msgstr "Güncelleniyor…"
 
+#: src/pages/shell/composer-error.tsx
 #: src/pages/shell/shell-sidebar.tsx
 #: src/pages/shell/use-computer.tsx
 msgid "Upgrade"
@@ -7836,6 +7852,10 @@ msgstr "Denemeniz biter ve kartınızdan bugün {price} çekilir."
 #: src/components/ModelCredits.tsx
 msgid "Your trial ends and your card is charged today."
 msgstr "Denemeniz biter ve kartınızdan bugün ödeme alınır."
+
+#: src/pages/shell/composer-error.tsx
+msgid "Your trial's computer hours are used up."
+msgstr ""
 
 #: src/lib/user-error.ts
 msgid "Your voice provider is out of credit."

@@ -1449,6 +1449,7 @@ msgid "Cancelled"
 msgstr "キャンセル済み"
 
 #: src/components/ModelCredits.tsx
+#: src/pages/shell/composer-error.tsx
 msgid "Cancelled trials have no computer hours."
 msgstr "キャンセルしたトライアルにはコンピューター時間がありません。"
 
@@ -2238,6 +2239,10 @@ msgstr "スペースを作成できませんでした"
 #: src/components/bot-templates/bot-templates-dialog.tsx
 msgid "Could not create the bot"
 msgstr "ボットを作成できませんでした"
+
+#: src/pages/shell/use-routine-editor.ts
+msgid "Could not create the webhook key"
+msgstr ""
 
 #: src/pages/Onboarding.tsx
 msgid "Could not create your bot"
@@ -4999,6 +5004,10 @@ msgstr "{codeHost}から送られたコードのみを入力してください�
 msgid "Only me"
 msgstr "自分のみ"
 
+#: src/pages/shell/use-routine-editor.ts
+msgid "Only the bot's creator can set its webhook key."
+msgstr ""
+
 #: src/components/pages/SharePopover.tsx
 msgid "Only you"
 msgstr "自分のみ"
@@ -5747,6 +5756,7 @@ msgid "Rename section"
 msgstr "セクション名を変更"
 
 #: src/components/ModelCredits.tsx
+#: src/pages/shell/composer-error.tsx
 msgid "Renew plan"
 msgstr "プランを更新"
 
@@ -6604,6 +6614,7 @@ msgid "Start plan"
 msgstr "プランを開始"
 
 #: src/components/ModelCredits.tsx
+#: src/pages/shell/composer-error.tsx
 msgid "Start plan now"
 msgstr "今すぐプランを開始"
 
@@ -7033,6 +7044,10 @@ msgstr "このモデルのコンテキストウィンドウは小さすぎます
 msgid "This month"
 msgstr "今月"
 
+#: src/pages/shell/composer-error.tsx
+msgid "This month's computer hours are used up."
+msgstr ""
+
 #: src/lib/pages.ts
 msgid "This page couldn't be shown."
 msgstr "このページを表示できませんでした。"
@@ -7355,6 +7370,7 @@ msgstr "チームのコンピューターを更新中"
 msgid "Updating…"
 msgstr "更新中…"
 
+#: src/pages/shell/composer-error.tsx
 #: src/pages/shell/shell-sidebar.tsx
 #: src/pages/shell/use-computer.tsx
 msgid "Upgrade"
@@ -7836,6 +7852,10 @@ msgstr "トライアルが終了し、本日カードに{price}が請求され�
 #: src/components/ModelCredits.tsx
 msgid "Your trial ends and your card is charged today."
 msgstr "トライアルが終了し、本日カードに請求されます。"
+
+#: src/pages/shell/composer-error.tsx
+msgid "Your trial's computer hours are used up."
+msgstr ""
 
 #: src/lib/user-error.ts
 msgid "Your voice provider is out of credit."
